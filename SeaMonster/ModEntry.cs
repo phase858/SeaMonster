@@ -24,7 +24,7 @@ namespace SeaMonster
 
             if (Game1.player.CurrentTool is FishingRod rod && rod.isFishing && !rod.hit)
             {
-                int option = 3; //rnd.Next(0, 100000);
+                int option = rnd.Next(0, 100000);
                 if (option == 3)
                 {
                     Game1.addHUDMessage(new HUDMessage("You caught a rare sea monster.", 2));
