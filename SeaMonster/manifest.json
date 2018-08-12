@@ -1,0 +1,10 @@
+﻿{
+  "Name": "SeaMonster",
+  "Author": "phase858 (/u/phase858)",
+  "Version": "1.0.0",
+  "Description": "Adds a 1/100000 chance to get 20000 gold suring fishing by catching a sea monster.",
+  "UniqueID": "phase858.SeaMonster",
+  "EntryDll": "SeaMonster.dll",
+  "MinimumApiVersion": "2.6",
+  "UpdateKeys": [ "GitHub:phase858/SeaMonster" ]
+}
