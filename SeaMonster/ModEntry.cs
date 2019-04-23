@@ -14,7 +14,7 @@ namespace SeaMonster
 
         public override void Entry(IModHelper helper)
         {
-            GameEvents.UpdateTick += this.GameEvents_UpdateTick;
+            helper.Events.GameLoop.UpdateTicked += this.GameEvents_UpdateTick;
         }
 
         private void GameEvents_UpdateTick(object sender, EventArgs e)
